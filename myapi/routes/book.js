@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const book = require('../models/book_model');
+const book = require('../models/book_models');
 
 router.get('/:id?',
  function(request, response) {
